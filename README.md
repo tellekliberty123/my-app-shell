@@ -391,3 +391,15 @@ http-server -c-1 --proxy http://localhost:9000 .
 > npm install --save-dev @angular-devkit/build-ng-packagr@latest and npm install --save-dev @angular-devkit/build-angular@latest
 > ng update --all
 
+# GIT INIT
+### …or create a new repository on the command line
+> echo "# test" >> README.md
+> git init
+> git add README.md
+> git commit -m "first commit"
+> git remote add origin https://github.com/tellekliberty123/test.git
+> git push -u origin master
+
+### …or push an existing repository from the command line
+> git remote add origin https://github.com/tellekliberty123/test.git
+> git push -u origin master
