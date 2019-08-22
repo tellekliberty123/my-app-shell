@@ -95,6 +95,11 @@
               "src/assets",
               "src/manifest.webmanifest"
             ]
+          },
+          "configurations": {
+            "build": {
+              "karmaConfig": "src/karma.build.conf.js"
+            }
           }
         },
         "lint": {

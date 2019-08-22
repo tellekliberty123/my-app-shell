@@ -387,7 +387,7 @@ http-server -c-1 --proxy http://localhost:9000 .
 # Handling Errors
 - An unhandled exception occurred: Could not find the implementation for builder @angular-devkit/build-ng-packagr:build
 - SOLN:
-> npm uninstall @angular-devkit/build-angular
-> npm install --save-dev @angular-devkit/build-angular
+> npm uninstall @angular-devkit/build-ng-packagr and npm uninstall @angular-devkit/build-angular
+> npm install --save-dev @angular-devkit/build-ng-packagr@latest and npm install --save-dev @angular-devkit/build-angular@latest
 > ng update --all
 
